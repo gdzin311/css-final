@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Segundo trabalho de front</title>
+  <link rel="stylesheet" href="./Style/main.css">
+</head>
+<body>
+  <header id="inicio">
+    <img src="./Img/logo.png" alt="logotipo">
+    <h1>Khēmeia</h1>
+  </header>
+
+  <div id="menu">
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#diagrama">Diagrama</a>
+      <a href="#imagens">Imagens</a>
+      <a href="#rodape">Rodape</a>
+    </nav>
+  </div>
+
+  <main>
+    <section id= "texto">
+
+      <h2>O que é distribuçao eletronica?</h2>
+      <p>A Distribuição Eletrônica é a maneira como os elétrons se organizam ao redor do núcleo de um átomo. Compreender esse arranjo não é apenas um exercício de química teórica; é a chave para entender por que certos elementos reagem violentamente com a água enquanto outros são inertes, ou por que o ferro é magnético e o ouro conduz eletricidade.</p>
+
+      <h2>Estrutura da eletrosfera</h2>
+
+      <p>A eletrosfera não é uma "nuvem" bagunçada. Ela é organizada em níveis e subníveis de energia, seguindo as leis da mecânica quântica.</p>
+      <p>Existem 7 níveis de energia, representados pelas letras K, L, M, N, O, P e Q (ou números de 1 a 7). Cada nível suporta um número máximo de elétrons:</p>
+      <ul>
+        <li>K (1): 2 elétrons</li>
+        <li>L (2): 8 elétrons</li>
+        <li>M (3): 18 elétrons</li>
+        <li>N (4): 32 elétrons</li>
+        <li>O (5): 32 elétrons</li>
+        <li>P (6): 18 elétrons</li>
+        <li>Q (7): 8 elétrons</li>
+      </ul>
+      <p>imagem para maior entendimento:</p>
+
+      <figure>
+        <img src="./Img/camadas.png" alt="Imagem das camadas eletronicas">
+        <figcaption>Camadas eletronicas (níveis)</figcaption>
+      </figure>
+
+      <p>Dentro de cada nível, os elétrons se distribuem em subníveis: s, p, d, f.</p>
+      <ul>
+        <li>s: comporta até 2 elétrons.</li>
+        <li>p: comporta até 6 elétrons.</li>
+        <li>d: comporta até 10 elétrons.</li>
+        <li>f: comporta até 14 elétrons.</li>
+      </ul>
+
+      <h2 id="diagrama">O Diagrama de Linus Pauling</h2>
+      <p>Os elétrons preenchem os subníveis seguindo uma ordem crescente de energia. Para facilitar essa visualização, utilizamos o Diagrama de Linus Pauling. O segredo aqui é seguir as setas diagonais, e não a ordem numérica simples.</p>
+      <p id="ordem">A ordem de preenchimento correta é:</p>
+
+      <figure>
+        <img src="./Img/pauling.png" alt="Diagrama de Linus Pauling">
+      </figure>
+
+    </section>
+
+    <br><br>
+
+    <section id="imagens">
+      <h2>Exercício</h2>
+      <p>Faça a distribuição eletronica dos seguintes elementos:</p>
+      
+      <div id="fotos">
+        <img src="./Img/sodio.jpg" alt="sodio">
+
+        <img src="./Img/helio.png" alt="helio">
+
+        <img src="./Img/uranio.png" alt="uranio">
+
+        <img src="./Img/ferro.png" alt="ferro">
+
+        <img src="./Img/plutonio.png" alt="plutonio">
+      </div>
+    </section>
+
+    <section>
+      <form>
+          <fieldset>
+            <fieldset class="destaque">
+                <legend>Campos obrigatorios</legend>
+
+                <label for="i1">Nome:</label>
+                <input type="text" name="nome" id="i1" required>
+
+                <br>
+
+                <label for="i2">E-Mail:</label>
+                <input type="email" name="email" id="i2" required>
+
+                <br>
+
+                <label for="i3">Senha:</label>
+                <input type="password" name="senha" id="i3" required>
+
+            </fieldset>
+            <fieldset>
+                <legend>Campos opcionais</legend>
+
+                <label for="i4">Data de Nascimento:</label>
+                <input type="date" name="data_de_nascimento" id="i4">
+
+                <br>
+
+                <label for="i5">Número de telefone:</label>
+                <input type="tel" name="telefone" id="i5">
+
+                <br>
+
+                <label for="i6">Sua cor favorita</label>
+                <input type="color" name="cor_favorita" id="i6">
+            </fieldset>
+
+            
+
+              <button type="submit">Enviar</button>
+              <button type="reset">Apagar Tudo</button>
+          </fieldset>
+        </form>
+    </section>
+  </main>
+
+  <footer>
+    <p id="informacoes">Artur Guadalupe, turma: I2</p>
+    <p id="referencias">Imagens retiradas de: <a href="https://www.todamateria.com.br/distribuicao-eletronica/">Toda Materia</a></p>
+  </footer>
+</body>
+</html>
