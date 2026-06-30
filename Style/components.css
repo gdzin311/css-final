@@ -1,0 +1,91 @@
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+/* Elementos do Header */
+header img {
+    height: 2.1rem;
+}
+
+/* Elementos do Menu */
+nav {
+    background-color: red;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 5px;
+    color: aqua;
+}
+
+nav a {
+    text-decoration: none;
+    color: aqua;
+}
+
+/* Elementos da seção #texto */
+#texto img {
+    max-width: 100%;
+    height: auto;
+}
+
+main figure {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 20%;
+}
+
+#diagrama {
+    scroll-margin-top: 1.2rem;
+}
+
+#ordem {
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+/* Elementos da seção #imagens */
+#fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#fotos img {
+    max-width: 29%;
+    height: auto;
+    padding: 10px;
+}
+
+/* Elementos do Footer */
+#informacoes {
+    background-color: red;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 5px;
+    color: aqua;
+}
+
+#referencias {
+    background-color: red;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    padding: 5px;
+    padding-right: 0;
+    gap: 0;
+}
