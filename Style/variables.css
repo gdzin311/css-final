@@ -1,0 +1,25 @@
+/* ==========================================================================
+   VARIÁVEIS GLOBAIS (Cores e Estilos)
+   ========================================================================== */
+
+:root {
+    /* Cores Principais do Layout (Baseadas no seu código original) */
+    --cor-header: aqua;
+    --cor-fundo-main: bisque;
+    --cor-footer: red;
+
+    /* Cores de Texto */
+    --cor-texto-principal: #333333;
+    --cor-texto-secundario: #555555;
+    --cor-texto-claro: #ffffff;
+
+    /* Cores dos Componentes (Formulário, Banner e Galeria) */
+    --cor-primaria: #007bff;        /* Azul institucional para botões, etc. */
+    --cor-primaria-hover: #0056b3;  /* Azul mais escuro para o efeito hover */
+    --cor-banner-fundo: #ffcc00;    /* Amarelo chamativo para o banner animado */
+    --cor-banner-texto: #111111;
+    
+    /* Cores de Bordas e Fundos de Blocos */
+    --cor-borda: #cccccc;
+    --cor-fundo-bloco: #ffffff;      /* Fundo branco para os fieldsets e cards */
+}

@@ -1,14 +1,52 @@
-html {
-    box-sizing: border-box;
+/* ==========================================================================
+   BASE - Resets e Estilos Globais
+   ========================================================================== */
+
+/* Importação da fonte Inter diretamente do Google Fonts */
+
+/* Reset padrão para evitar comportamento inesperado nos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho do elemento */
 }
 
-*, 
-*:before, 
-*:after {
-    box-sizing: inherit;
-    margin: 0;
+html {
+    scroll-behavior: smooth; /* Deixa a rolagem suave ao clicar nos links do menu */
 }
 
 body {
-    font-family: 'open sans', Arial, sans-serif;
+    font-family: 'Inter', sans-serif; /* Aplicando a fonte importada do Google Fonts */
+    color: var(--cor-texto-principal);
+    line-height: 1.6;
+}
+
+/* Estilos básicos para títulos */
+h1, h2, h3 {
+    margin-bottom: 15px;
+    color: var(--cor-texto-principal);
+}
+
+/* Estilos para parágrafos e listas */
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para links gerais */
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Ajuste básico para imagens não estourarem as telas */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }

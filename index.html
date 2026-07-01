@@ -3,7 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Segundo trabalho de front</title>
+  <title>Khēmeia - Distribuição Eletrônica</title>
+  <meta name="description" content="Aprenda tudo sobre Distribuição Eletrônica, a estrutura da eletrosfera e o Diagrama de Linus Pauling de forma simples e interativa.">
+  <meta name="keywords" content="química, distribuição eletrônica, linus pauling, elétrons, eletrosfera">
+  <meta name="author" content="Artur Guadalupe">
+
+  <meta property="og:title" content="Khēmeia - Distribuição Eletrônica">
+  <meta property="og:description" content="Compreenda o arranjo dos elétrons e o Diagrama de Linus Pauling.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://seu-usuario.github.io/seu-repositorio/">
+  <meta property="og:image" content="./Img/pauling.png">
+
   <link rel="stylesheet" href="./Style/main.css">
 </head>
 <body>
@@ -12,23 +22,26 @@
     <h1>Khēmeia</h1>
   </header>
 
+  <div class="banner-animado">
+    <p>Explore o mundo dos átomos e da eletrosfera!</p>
+  </div>
+
   <div id="menu">
     <nav>
       <a href="#inicio">Inicio</a>
       <a href="#diagrama">Diagrama</a>
       <a href="#imagens">Imagens</a>
-      <a href="#rodape">Rodape</a>
+      <a href="#formulario">Contato</a>
+      <a href="#painel">Galeria</a>
     </nav>
   </div>
 
   <main>
-    <section id= "texto">
-
+    <section id="texto">
       <h2>O que é distribuçao eletronica?</h2>
       <p>A Distribuição Eletrônica é a maneira como os elétrons se organizam ao redor do núcleo de um átomo. Compreender esse arranjo não é apenas um exercício de química teórica; é a chave para entender por que certos elementos reagem violentamente com a água enquanto outros são inertes, ou por que o ferro é magnético e o ouro conduz eletricidade.</p>
 
       <h2>Estrutura da eletrosfera</h2>
-
       <p>A eletrosfera não é uma "nuvem" bagunçada. Ela é organizada em níveis e subníveis de energia, seguindo as leis da mecânica quântica.</p>
       <p>Existem 7 níveis de energia, representados pelas letras K, L, M, N, O, P e Q (ou números de 1 a 7). Cada nível suporta um número máximo de elétrons:</p>
       <ul>
@@ -62,7 +75,6 @@
       <figure>
         <img src="./Img/pauling.png" alt="Diagrama de Linus Pauling">
       </figure>
-
     </section>
 
     <section id="imagens">
@@ -71,66 +83,69 @@
       
       <div id="fotos">
         <img src="./Img/sodio.jpg" alt="sodio">
-
         <img src="./Img/helio.png" alt="helio">
-
         <img src="./Img/uranio.png" alt="uranio">
-
         <img src="./Img/ferro.png" alt="ferro">
-
         <img src="./Img/plutonio.png" alt="plutonio">
       </div>
     </section>
 
-    <section>
+    <section id="formulario">
+      <h2>Fale Conosco</h2>
+      <div class="form-container">
+        <form>
+          <fieldset class="obrigatorios">
+            <legend>Campos obrigatórios</legend>
 
-      <form>
-          <fieldset>
+            <label for="i1">Nome:</label>
+            <input type="text" id="i1" name="nome" required>
 
-            <img src="./Img/telecks.jpg" alt="foto do nosso adoravel professor de front-end">
-            <fieldset class="destaque">
-                <legend>Campos obrigatorios</legend>
+            <label for="i2">E-Mail:</label>
+            <input type="email" id="i2" name="email" required>
 
-                <label for="i1">Nome:</label>
-                <input type="text" name="nome" required>
-
-                <br>
-
-                <label for="i2">E-Mail:</label>
-                <input type="email" name="email" required>
-
-                <br>
-
-                <label for="i3">Senha:</label>
-                <input type="password" name="senha" required>
-
-            </fieldset>
-            <fieldset>
-                <legend>Campos opcionais</legend>
-
-                <label for="i4">Data de Nascimento:</label>
-                <input type="date" name="data_de_nascimento">
-
-                <br>
-
-                <label for="i5">Número de telefone:</label>
-                <input type="tel" name="telefone">
-
-                <br>
-
-                <label for="i6">Sua cor favorita</label>
-                <input type="color" name="cor_favorita">
-            </fieldset>
-
-              <button type="submit">Enviar</button>
-              <button type="reset">Apagar Tudo</button>
+            <label for="i3">Senha:</label>
+            <input type="password" id="i3" name="senha" required>
           </fieldset>
-        </form>
 
+          <fieldset class="n_obrigatorios">
+            <legend>Campos opcionais</legend>
+
+            <label for="i4">Data de Nascimento:</label>
+            <input type="date" id="i4" name="data_de_nascimento">
+
+            <label for="i5">Número de telefone:</label>
+            <input type="tel" id="i5" name="telefone">
+
+            <label for="i6">Sua cor favorita:</label>
+            <input type="color" id="i6" name="cor_favorita">
+          </fieldset>
+
+          <div class="form-botoes">
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar Tudo</button>
+          </div>
+        </form>
+        
+        <figure id="figura-professor">
+          <img src="./Img/telecks.jpg" alt="foto do nosso adoravel professor de front-end">
+          <figcaption>Nosso orientador de Front-End</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="painel">
+      <h2>Galeria de Elementos</h2>
+      <div class="grid-painel">
+        <div class="foto-item foto1"></div>
+        <div class="foto-item foto2"></div>
+        <div class="foto-item foto3"></div>
+        <div class="foto-item foto4"></div>
+        <div class="foto-item foto5"></div>
+      </div>
     </section>
   </main>
 
-  <footer>
+  <footer id="rodape">
     <p id="informacoes">Artur Guadalupe, turma: I2</p>
     <p id="referencias">Imagens retiradas de: <a href="https://www.todamateria.com.br/distribuicao-eletronica/">Toda Materia</a></p>
   </footer>
