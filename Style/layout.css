@@ -48,14 +48,21 @@ footer {
     width: 100%;
     height: auto;
     display: block;
-    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .form-container form { order: 2; }
+    .form-container #figura-professor { order: 1; }
 }
 
 /* Telas Grandes (A partir de 768px): Formulário ao lado da figura */
 @media (min-width: 768px) {
     .form-container {
-        grid-template-columns: 1fr 1fr; /* Duas colunas de tamanhos iguais */
+        grid-template-columns: 1fr 1fr;
         align-items: start;
+    }
+    #figura-professor{
+        padding: 40px;
     }
 }
 

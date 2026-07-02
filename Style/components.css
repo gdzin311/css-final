@@ -38,7 +38,7 @@ nav a {
     height: auto;
 }
 
-main figure {
+#texto figure {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -71,33 +71,6 @@ main figure {
     height: auto;
     padding: 10px;
 }
-
-/* Elementos do Footer */
-#informacoes {
-    background-color: var(--cor-footer);
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
-    padding: 5px;
-    color: var(--cor-header);
-}
-
-#referencias {
-    background-color: var(--cor-footer);
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    color: var(--cor-header);
-    padding: 5px;
-    padding-right: 0;
-    gap: 0;
-}
-
-
-/* --- Elementos Novos (Trabalho 3) --- */
 
 /* 1. Banner Animado */
 .banner-animado {
@@ -217,3 +190,27 @@ button[type="reset"]:hover {
 .foto3 { background-image: url('../Img/uranio.png'); }
 .foto4 { background-image: url('../Img/ferro.png'); }
 .foto5 { background-image: url('../Img/plutonio.png'); }
+
+/* Elementos do Footer */
+#informacoes {
+    background-color: var(--cor-footer);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 5px;
+    color: var(--cor-header);
+}
+
+#referencias {
+    background-color: var(--cor-footer);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-header);
+    padding: 5px;
+    padding-right: 0;
+    gap: 0;
+}

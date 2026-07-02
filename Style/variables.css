@@ -1,14 +1,10 @@
-/* ==========================================================================
-   VARIÁVEIS GLOBAIS (Cores e Estilos)
-   ========================================================================== */
-
 :root {
-    /* Cores Principais do Layout (Baseadas no seu código original) */
+    /* Cores Principais do Layout*/
     --cor-header: aqua;
     --cor-fundo-main: bisque;
     --cor-footer: red;
 
-    /* Cores de Texto */
+    /*Texto */
     --cor-texto-principal: #333333;
     --cor-texto-secundario: #555555;
     --cor-texto-claro: #ffffff;
