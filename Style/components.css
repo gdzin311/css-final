@@ -24,12 +24,12 @@ nav {
     align-items: center;
     gap: 5%;
     padding: 5px;
-    color: var(--cor-header);
+    color: var(--cor-texto-claro);
 }
 
 nav a {
     text-decoration: none;
-    color: var(--cor-header);
+    color: var(--cor-texto-claro);
 }
 
 /* Elementos da seção #texto */
@@ -200,7 +200,7 @@ button[type="reset"]:hover {
     align-items: center;
     gap: 5%;
     padding: 5px;
-    color: var(--cor-header);
+    color: var(--cor-texto-claro);
 }
 
 #referencias {
@@ -209,7 +209,7 @@ button[type="reset"]:hover {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    color: var(--cor-header);
+    color: var(--cor-texto-claro);
     padding: 5px;
     padding-right: 0;
     gap: 0;
