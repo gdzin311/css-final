@@ -1,8 +1,8 @@
 :root {
     /* Cores Principais do Layout*/
-    --cor-header: aqua;
-    --cor-fundo-main: bisque;
-    --cor-footer: red;
+    --cor-header: #0f3460;
+    --cor-fundo-main: #f4f1ea;  /* bege claro neutro */
+    --cor-footer: #0f3460;
 
     /*Texto */
     --cor-texto-principal: #333333;
