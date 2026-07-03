@@ -14,7 +14,11 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3 {
+h1{
+    color: var(--cor-texto-claro)
+}
+
+h2{
     margin-bottom: 15px;
     color: var(--cor-texto-principal);
 }
