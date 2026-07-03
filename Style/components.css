@@ -148,7 +148,7 @@ button {
 
 button[type="submit"] {
     background-color: var(--cor-primaria);
-    color: var(--cor-texto-principal);
+    color: var(--cor-texto-claro);
 }
 
 button[type="submit"]:hover {
