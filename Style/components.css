@@ -1,23 +1,16 @@
-/* ==========================================================================
-   COMPONENTS - Estilos Específicos e Elementos Reutilizáveis
-   ========================================================================== */
-
-/* --- Estilos Originais do seu Trabalho Anterior --- */
-
 h2 {
     display: flex;
     justify-content: center;
     padding-top: 10px;
 }
 
-/* Elementos do Header */
 header img {
     height: 2.1rem;
 }
 
 /* Elementos do Menu */
 nav {
-    background-color: var(--cor-footer); /* Usando a variável de cor */
+    background-color: var(--cor-estrutural); /* Usando a variável de cor */
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -72,7 +65,7 @@ nav a {
     padding: 10px;
 }
 
-/* 1. Banner Animado */
+/* Banner*/
 .banner-animado {
     background-color: var(--cor-banner-fundo);
     color: var(--cor-banner-texto);
@@ -95,7 +88,7 @@ nav a {
     100% { transform: scale(1); }
 }
 
-/* 2. Estilização Interna do Formulário */
+/*Formulário */
 form {
     background-color: var(--cor-fundo-bloco);
     padding: 20px;
@@ -171,7 +164,7 @@ button[type="reset"]:hover {
     background-color: #b5b5b5;
 }
 
-/* 3. Estilos do Painel de Fotos (Imagens de Fundo) */
+/*Painel de Fotos*/
 .foto-item {
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,7 +186,7 @@ button[type="reset"]:hover {
 
 /* Elementos do Footer */
 #informacoes {
-    background-color: var(--cor-footer);
+    background-color: var(--cor-estrutural);
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -204,7 +197,7 @@ button[type="reset"]:hover {
 }
 
 #referencias {
-    background-color: var(--cor-footer);
+    background-color: var(--cor-estrutural);
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;

@@ -1,21 +1,20 @@
 :root {
     /* Cores Principais do Layout*/
-    --cor-header: #0f3460;
-    --cor-fundo-main: #f4f1ea;  /* bege claro neutro */
-    --cor-footer: #0f3460;
+    --cor-estrutural: #0f3460;
+    --cor-fundo-main: #f4f1ea;
 
     /*Texto */
     --cor-texto-principal: #333333;
     --cor-texto-secundario: #555555;
     --cor-texto-claro: #ffffff;
 
-    /* Cores dos Componentes (Formulário, Banner e Galeria) */
-    --cor-primaria: #007bff;        /* Azul institucional para botões, etc. */
-    --cor-primaria-hover: #0056b3;  /* Azul mais escuro para o efeito hover */
-    --cor-banner-fundo: #ffcc00;    /* Amarelo chamativo para o banner animado */
-    --cor-banner-texto: #111111;
-    
-    /* Cores de Bordas e Fundos de Blocos */
+    /*form*/
+    --cor-primaria: #007bff;        /* botão*/
+    --cor-primaria-hover: #0056b3;  /*hover do botão*/
     --cor-borda: #cccccc;
-    --cor-fundo-bloco: #ffffff;      /* Fundo branco para os fieldsets e cards */
+    --cor-fundo-bloco: #ffffff;     
+
+    /*banner*/
+    --cor-banner-fundo: #ffcc00;
+    --cor-banner-texto: #111111;
 }
